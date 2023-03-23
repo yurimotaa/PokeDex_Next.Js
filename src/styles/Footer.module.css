@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--Color-secondary);
+  color: var(--Color-primary);
+  padding: 20px 50px;
+
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
