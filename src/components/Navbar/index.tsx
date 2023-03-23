@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <Image src="/logo.png" width="120" height="50" alt="Pokedex" />
+        <Image priority src="/logo.png" width="120" height="50" alt="Pokedex" />
         <h1>PokeDex</h1>
       </div>
       <ul>

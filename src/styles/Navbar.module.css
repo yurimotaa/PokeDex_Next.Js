@@ -25,7 +25,7 @@
 
 .navbar > ul {
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 
 .navbar > ul > li > a {
@@ -45,4 +45,16 @@
 
   color: var(--Color-secondary);
   background-color: var(--Color-primary);
+}
+
+@media (max-width: 500px) {
+  .navbar > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .logo {
+    flex-direction: column;
+  }
 }

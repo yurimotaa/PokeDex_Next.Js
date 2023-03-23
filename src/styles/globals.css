@@ -134,15 +134,38 @@ button {
   cursor: pointer;
 }
 
+body {
+  background-color: var(--Color-secondary);
+}
+
 .main-container {
   min-height: 80vh;
 
   background-color: var(--Color-primary);
 }
 
+::-webkit-scrollbar {
+  width: 18px;
+  background-color: var(--Color-primary);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--Color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--Color-primary);
+  border: solid 3px var(--grey-0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--Color-secondary);
+}
+
 :root {
   --Color-primary: #2f68b3;
   --Color-secondary: #ffcc01;
+  --Color-tertiary: #e61313;
   --grey-1: #868e96;
   --grey-2: #343b41;
   --grey-3: #212529;

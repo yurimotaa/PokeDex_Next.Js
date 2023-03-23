@@ -1,1 +1,1 @@
-Projeto PokeDex constrído com o Framework NextJs
+Projeto PokeDex construído com o Framework NextJs
